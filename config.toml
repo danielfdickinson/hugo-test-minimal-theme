@@ -1,0 +1,62 @@
+title = "Hugo Minimal Test Theme"
+copyright = "Copyright © 2008–2021 Steve Francia, the Hugo Authors, and Daniel F. Dickinson; all rights reserved. (Heavily modified by Daniel F. Dickinson)"
+description = "Demo site for hugo-minimal-test, based on gohugoio/basicHugoExample"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableGitInfo = true
+
+[author]
+  name = "Daniel F. Dickinson"
+  homepage = "https://www.danielfdickinson.ca/"
+
+  [[ author.authors ]]
+    name = "Daniel F. Dickinson"
+    homepage = "https://www.danielfdickinson.ca/"
+
+  [[ author.authors ]]
+    name = "Steve Francia"
+
+  [[ author.authors ]]
+    name = "Hugo Authors"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = true
+
+  [privacy.twitter]
+    disabled = true
+
+  [privacy.instagram]
+    disabled = true
+
+  [privacy.youtube]
+    disabled = true
+
+[module]
+     [[module.imports]]
+        path = "github.com/danielfdickinson/hugo-minimal-test"
+
+[params]
+  testStylesInclude = true
+  debugTableEnvironment = ["production","development"]
+  mainSections = ["post","docs"]
+  useBaseURL = false
+
+[frontmatter]
+  lastmod = ["lastmod",":git",":fileModTime","date","publishDate"]
+  date = ["date","publishDate","lastmod",":git",":fileModTime"]
+  publishDate = ["publishDate","date","lastmod",":git",":fileModTime"]
