@@ -4,6 +4,9 @@ This repository offers an example site for [hugo-minimal-test](https://github.co
 
 You can view [a demonstration on Netlify](https://hugo-test-minimal-theme.wildtechgarden.ca).
 
+## Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2d0b8721-7f93-41fc-ac6f-09187572a3df/deploy-status)](https://app.netlify.com/sites/hugo-test-minimal-theme/deploys)
 ## Using
 
 1. [Install Hugo](https://gohugo.io/overview/installing/)
