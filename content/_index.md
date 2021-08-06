@@ -8,4 +8,4 @@ This theme is not intended to be used as a normal theme. It is intended as a fra
 
 The goal is to minimize the amount of 'layout grunt work' one has to do to create the test case.
 
-That is also why it has no styling, except to improve the usability of the included [debug tables](https://github.com/danielfdickinson/hugo-debug-tables).
+That is also why it has no styling, except to improve the usability of the included [debug tables](https://github.com/danielfdickinson/hugo-debug-tables) and appease Google Search Console and Bing Webmaster Tools.
