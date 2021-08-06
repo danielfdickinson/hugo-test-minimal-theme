@@ -6,9 +6,7 @@ aliases = ["about-us", "about-hugo", "contact"]
 author = "Hugo Authors"
 +++
 
-## From hugoTestMinimalTheme README
-
-This repository offers an example site for [hugoMinimalTestTheme](https://hugo-minimal-test-theme-demo.wildtechgarden.ca) theme for [Hugo](https://gohugo.io/). It is began as a fork of [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample).
+## From hugo-test-minimal-theme README
 
 ### Using
 
@@ -16,8 +14,8 @@ This repository offers an example site for [hugoMinimalTestTheme](https://hugo-m
 2. Clone this repository
 
 ```bash
-git clone https://github.com/danielfdickinson/hugoTestMinimalTheme.git
-cd hugoTestMinimalTheme
+git clone https://github.com/danielfdickinson/hugo-test-minimal-theme.git
+cd hugo-test-minimal-theme
 ```
 3. Run Hugo local server
 
@@ -28,24 +26,23 @@ hugo server -b http://localhost:1313/
 4. Under `/content/` this repository contains the following:
 
 - A section called `/post/` with sample markdown content
-- A section called `/docs` with the documentation for the included theme (``hugoMinimalTestTheme``) and a nested module used to generate an optional list of debug tables (``hugoDebugTables``).
-- A headless bundle called `homepage` that you may want to use for single page applications. You can find instructions about headless bundles over [here](https://gohugo.io/content-management/page-bundles/#headless-bundle)
-- An `about.md` that is intended to provide the `/about/` page for a theme demo
+- A section called `/docs` with the documentation for the included theme (``hugo-minimal-test``) and a nested module used to generate an optional list of debug tables (``hugo-debug-tables``).
 
+## From hugo-minimal-test README
 
-## From hugoMinimalTestTheme README
+This theme is not intended to be used as a normal theme. It is intended as a framework for creating minimal reproducible test cases. As such, one does not simply drop it in a site, but rather creates a repository specifically designed to isolate and demonstrate the issue one is facing.
 
-A minimum test theme to generate the full site of unstyled pages for https://github.com/gohugoio/hugoBasicExample (and other Hugo sites).
+The goal is to minimize the amount of 'layout grunt work' one has to do to create the test case.
 
-Includes the ability to enable less minimal features via custom layouts (with thanks to members of the [Hugo Forum](https://discourse.gohugo.io) for their suggestions).
+It includes the ability to enable less minimal features via custom layouts (with thanks to members of the [Hugo Forum](https://discourse.gohugo.io) for their suggestions).
 
-The purpose of the repo is not for CI or automated testing, but to have a set of layouts for creating minimum reproducible test cases for reporting bugs to the Hugo developers.
+## Documentation
 
-The site content is mostly from the [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample) demonstration site by the Steve Francia and the Hugo Authors
+[hugo-minim-test-theme-docs](/docs/hugo-minimal-test-theme-docs)
 
-### Obtaining hugoMinimalTestTheme
+### Obtaining hugo-minimal-test
 
-You can get it from <https://github.com/danielfdickinson/hugoMinimalTestTheme>.
+You can get it from <https://github.com/danielfdickinson/hugo-minimal-test>.
 ## From hugoBasicExample About page
 
 Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
